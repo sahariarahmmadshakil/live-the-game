@@ -131,6 +131,21 @@ button {
 .match_img {
     padding: 14px;
 }
+.flag-catagory{
+    width: 338px;
+    height: 270px;
+    box-shadow: 0 0 20px gray;
+    margin-bottom: 20px;
+}
+.flag_img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.flag_img >img{
+    width: 140px;
+    height: 85px;
+    padding: 5px;
+}
 
 .match_info {
     padding: 14px 14px 20px 14px;
